@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45253F9D21277F7700795F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45253F9C21277F7700795F7C /* AppDelegate.swift */; };
+		45253F9F21277F7700795F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45253F9E21277F7700795F7C /* ViewController.swift */; };
+		45253FA221277F7700795F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45253FA021277F7700795F7C /* Main.storyboard */; };
+		45253FA421277F7800795F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45253FA321277F7800795F7C /* Assets.xcassets */; };
+		45253FA721277F7800795F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45253FA521277F7800795F7C /* LaunchScreen.storyboard */; };
+		45253FB221277F7800795F7C /* prendeAPagaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45253FB121277F7800795F7C /* prendeAPagaTests.swift */; };
+		45253FBD21277F7900795F7C /* prendeAPagaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45253FBC21277F7900795F7C /* prendeAPagaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45253FAE21277F7800795F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45253F9121277F7700795F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45253F9821277F7700795F7C;
+			remoteInfo = prendeAPaga;
+		};
+		45253FB921277F7900795F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45253F9121277F7700795F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45253F9821277F7700795F7C;
+			remoteInfo = prendeAPaga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45253F9921277F7700795F7C /* prendeAPaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prendeAPaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45253F9C21277F7700795F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45253F9E21277F7700795F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45253FA121277F7700795F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45253FA321277F7800795F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45253FA621277F7800795F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45253FA821277F7800795F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45253FAD21277F7800795F7C /* prendeAPagaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prendeAPagaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45253FB121277F7800795F7C /* prendeAPagaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prendeAPagaTests.swift; sourceTree = "<group>"; };
+		45253FB321277F7900795F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45253FB821277F7900795F7C /* prendeAPagaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prendeAPagaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45253FBC21277F7900795F7C /* prendeAPagaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prendeAPagaUITests.swift; sourceTree = "<group>"; };
+		45253FBE21277F7900795F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45253F9621277F7700795F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45253FAA21277F7800795F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45253FB521277F7900795F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45253F9021277F7700795F7C = {
+			isa = PBXGroup;
+			children = (
+				45253F9B21277F7700795F7C /* prendeAPaga */,
+				45253FB021277F7800795F7C /* prendeAPagaTests */,
+				45253FBB21277F7900795F7C /* prendeAPagaUITests */,
+				45253F9A21277F7700795F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45253F9A21277F7700795F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45253F9921277F7700795F7C /* prendeAPaga.app */,
+				45253FAD21277F7800795F7C /* prendeAPagaTests.xctest */,
+				45253FB821277F7900795F7C /* prendeAPagaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45253F9B21277F7700795F7C /* prendeAPaga */ = {
+			isa = PBXGroup;
+			children = (
+				45253F9C21277F7700795F7C /* AppDelegate.swift */,
+				45253F9E21277F7700795F7C /* ViewController.swift */,
+				45253FA021277F7700795F7C /* Main.storyboard */,
+				45253FA321277F7800795F7C /* Assets.xcassets */,
+				45253FA521277F7800795F7C /* LaunchScreen.storyboard */,
+				45253FA821277F7800795F7C /* Info.plist */,
+			);
+			path = prendeAPaga;
+			sourceTree = "<group>";
+		};
+		45253FB021277F7800795F7C /* prendeAPagaTests */ = {
+			isa = PBXGroup;
+			children = (
+				45253FB121277F7800795F7C /* prendeAPagaTests.swift */,
+				45253FB321277F7900795F7C /* Info.plist */,
+			);
+			path = prendeAPagaTests;
+			sourceTree = "<group>";
+		};
+		45253FBB21277F7900795F7C /* prendeAPagaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45253FBC21277F7900795F7C /* prendeAPagaUITests.swift */,
+				45253FBE21277F7900795F7C /* Info.plist */,
+			);
+			path = prendeAPagaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45253F9821277F7700795F7C /* prendeAPaga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45253FC121277F7900795F7C /* Build configuration list for PBXNativeTarget "prendeAPaga" */;
+			buildPhases = (
+				45253F9521277F7700795F7C /* Sources */,
+				45253F9621277F7700795F7C /* Frameworks */,
+				45253F9721277F7700795F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prendeAPaga;
+			productName = prendeAPaga;
+			productReference = 45253F9921277F7700795F7C /* prendeAPaga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45253FAC21277F7800795F7C /* prendeAPagaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45253FC421277F7900795F7C /* Build configuration list for PBXNativeTarget "prendeAPagaTests" */;
+			buildPhases = (
+				45253FA921277F7800795F7C /* Sources */,
+				45253FAA21277F7800795F7C /* Frameworks */,
+				45253FAB21277F7800795F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45253FAF21277F7800795F7C /* PBXTargetDependency */,
+			);
+			name = prendeAPagaTests;
+			productName = prendeAPagaTests;
+			productReference = 45253FAD21277F7800795F7C /* prendeAPagaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45253FB721277F7900795F7C /* prendeAPagaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45253FC721277F7900795F7C /* Build configuration list for PBXNativeTarget "prendeAPagaUITests" */;
+			buildPhases = (
+				45253FB421277F7900795F7C /* Sources */,
+				45253FB521277F7900795F7C /* Frameworks */,
+				45253FB621277F7900795F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45253FBA21277F7900795F7C /* PBXTargetDependency */,
+			);
+			name = prendeAPagaUITests;
+			productName = prendeAPagaUITests;
+			productReference = 45253FB821277F7900795F7C /* prendeAPagaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45253F9121277F7700795F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = GerardoCastillo;
+				TargetAttributes = {
+					45253F9821277F7700795F7C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					45253FAC21277F7800795F7C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 45253F9821277F7700795F7C;
+					};
+					45253FB721277F7900795F7C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 45253F9821277F7700795F7C;
+					};
+				};
+			};
+			buildConfigurationList = 45253F9421277F7700795F7C /* Build configuration list for PBXProject "prendeAPaga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45253F9021277F7700795F7C;
+			productRefGroup = 45253F9A21277F7700795F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45253F9821277F7700795F7C /* prendeAPaga */,
+				45253FAC21277F7800795F7C /* prendeAPagaTests */,
+				45253FB721277F7900795F7C /* prendeAPagaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45253F9721277F7700795F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45253FA721277F7800795F7C /* LaunchScreen.storyboard in Resources */,
+				45253FA421277F7800795F7C /* Assets.xcassets in Resources */,
+				45253FA221277F7700795F7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45253FAB21277F7800795F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45253FB621277F7900795F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45253F9521277F7700795F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45253F9F21277F7700795F7C /* ViewController.swift in Sources */,
+				45253F9D21277F7700795F7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45253FA921277F7800795F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45253FB221277F7800795F7C /* prendeAPagaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45253FB421277F7900795F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45253FBD21277F7900795F7C /* prendeAPagaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45253FAF21277F7800795F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45253F9821277F7700795F7C /* prendeAPaga */;
+			targetProxy = 45253FAE21277F7800795F7C /* PBXContainerItemProxy */;
+		};
+		45253FBA21277F7900795F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45253F9821277F7700795F7C /* prendeAPaga */;
+			targetProxy = 45253FB921277F7900795F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45253FA021277F7700795F7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45253FA121277F7700795F7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45253FA521277F7800795F7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45253FA621277F7800795F7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45253FBF21277F7900795F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45253FC021277F7900795F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45253FC221277F7900795F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = prendeAPaga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Unam.prendeAPaga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45253FC321277F7900795F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = prendeAPaga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Unam.prendeAPaga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45253FC521277F7900795F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = prendeAPagaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Unam.prendeAPagaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prendeAPaga.app/prendeAPaga";
+			};
+			name = Debug;
+		};
+		45253FC621277F7900795F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = prendeAPagaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Unam.prendeAPagaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prendeAPaga.app/prendeAPaga";
+			};
+			name = Release;
+		};
+		45253FC821277F7900795F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = prendeAPagaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Unam.prendeAPagaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = prendeAPaga;
+			};
+			name = Debug;
+		};
+		45253FC921277F7900795F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCU3LP7DMT;
+				INFOPLIST_FILE = prendeAPagaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Unam.prendeAPagaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = prendeAPaga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45253F9421277F7700795F7C /* Build configuration list for PBXProject "prendeAPaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45253FBF21277F7900795F7C /* Debug */,
+				45253FC021277F7900795F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45253FC121277F7900795F7C /* Build configuration list for PBXNativeTarget "prendeAPaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45253FC221277F7900795F7C /* Debug */,
+				45253FC321277F7900795F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45253FC421277F7900795F7C /* Build configuration list for PBXNativeTarget "prendeAPagaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45253FC521277F7900795F7C /* Debug */,
+				45253FC621277F7900795F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45253FC721277F7900795F7C /* Build configuration list for PBXNativeTarget "prendeAPagaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45253FC821277F7900795F7C /* Debug */,
+				45253FC921277F7900795F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45253F9121277F7700795F7C /* Project object */;
+}
