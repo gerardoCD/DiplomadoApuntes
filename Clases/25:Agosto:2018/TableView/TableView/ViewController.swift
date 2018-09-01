@@ -36,6 +36,10 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
        // cell?.accessoryType = .checkmark
         let alertContoller = UIAlertController(title: "Alumnos", message: "Hola como estas \(self.nombres[indexPath.row])", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        
+        let cancelation = UIAlertAction(title: "Cancelar", style: .cancel) { (alertAction) in
+            print("Click en el cancel")
+        }
         alertContoller.addAction(okAction)
         
         present(alertContoller,animated: true,completion: nil )
