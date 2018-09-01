@@ -10,14 +10,16 @@ import UIKit
 
 class TableViewController: UITableViewController {
     var todos = [ToDo]()
-    
+    var alumnos = ["Hola","Hola2","Hola3"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let savedToDos = ToDo.loadToDos() {
+
+        if let savedToDos = ToDo.loadSampleToDos() {
+            print("Entra aqui")
             todos = savedToDos
         } else {
-            ToDo.loadSampleToDos()
+            print("Entra aqui 2")
+            ToDo.loadToDos()
         }
         
        
@@ -42,17 +44,24 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return todos.count
+     //   return todos.count
+        return alumnos.count
     }
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         guard let cell = tableView.dequeueReusableCell(withIdentifier:"Hola") else {
-                    fatalError("Could not dequeue a cell")
-                  }
-        let todo = todos[indexPath.row]
-        cell.textLabel?.text = todo.title
-        return cell
+//         guard let cell = tableView.dequeueReusableCell(withIdentifier:"ToDoCellIndentifier") else {
+//                    fatalError("Could not dequeue a cell")
+//                  }
+//        let todo = todos[indexPath.row]
+//        cell.textLabel?.text = todo.title
+//        return cell
+
+        let cell = tableView.dequeueReusableCell(withIdentifier:"ToDoCellIndentifier")
+        print(todos)
+        cell?.textLabel?.text = todos[indexPath.row].title
+     
+        return cell!
     }
     
 
