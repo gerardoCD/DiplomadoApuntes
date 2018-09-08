@@ -12,7 +12,6 @@ struct ToDo {
     var isComplete: Bool
     var dueDate: Date
     var notes: String?
-    
     static func loadToDos() -> [ToDo]?  {
         return nil
     }

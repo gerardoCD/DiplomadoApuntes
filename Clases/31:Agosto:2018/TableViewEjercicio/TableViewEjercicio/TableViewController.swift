@@ -13,34 +13,19 @@ class TableViewController: UITableViewController {
     var alumnos = ["Hola","Hola2","Hola3"]
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if let savedToDos = ToDo.loadSampleToDos() {
-            print("Entra aqui")
+       
+        if let savedToDos = ToDo.loadToDos() {
             todos = savedToDos
         } else {
-            print("Entra aqui 2")
-            ToDo.loadToDos()
+            todos = ToDo.loadSampleToDos()!
         }
-        
-       
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
-
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return
-//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
@@ -56,12 +41,13 @@ class TableViewController: UITableViewController {
 //        let todo = todos[indexPath.row]
 //        cell.textLabel?.text = todo.title
 //        return cell
-
-        let cell = tableView.dequeueReusableCell(withIdentifier:"ToDoCellIndentifier")
-        print(todos)
-        cell?.textLabel?.text = todos[indexPath.row].title
-     
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoCellIdentifier", for: indexPath) as! ToDoCell
+        cell.delegate = self
+        let todo = todos[indexPath.row]
+        
+        cell.titleLabel.text = todo.title
+        cell.isCompletedButton.isSelected = todo.isComplete
+        return cell
     }
     
 
